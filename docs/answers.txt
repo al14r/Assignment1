@@ -1,0 +1,36 @@
+1.	Counting objects: 3, done.
+
+	Delta compression using up to 4 threads.
+
+	Compressing objects: 100% (2/2), done.
+
+	Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
+
+	Total 3 (delta 1), reused 0 (delta 0)
+
+	remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+
+	To https://github.com/al14r/Assignment1.git
+
+   	fbdbe93..494099b  master -> master
+
+
+2. There has been a total of 8 commits so far, two done by myself, one done by Javier Ricardo Escobar Avila, and five done by irlabuser. The command used for this was ‘git log’
+
+3. .gitignore was last modified on September 27, 2017 at 4:31. The command used was git -log .gitignore
+
+4. The IDs of the commits used are 36a8e55e4bbdd171ab57d979e1a802d740f2db9b and cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+5. Branches are independent lines of development. One reason to use branches is if you wanted to add a new feature or modify existing code within a group project without affecting others until you decide to pull it to add the latest changes. Another reason to use branches is to keep track of changes that are made. If you accidentally changed a portion of code in a file and are unsure how to fix it, branches make it convenient to keep the original files until you are ready to update it. 
+
+6. git status will only show you which files have been staged or unstaged. It essentially shows you what’s been going on with git add and git commit. Git log shows you the project history which can be organized or searched with parameters. 
+
+
+7. 
+
+
+8. To find the commits that contain the word ‘file’ I used git log --all --grep=‘file'
+
+9. In object oriented programming, inheritance is the concept of an object from a subclass taking on the properties of the superclass. Polymorphism in object oriented programming is the ability for objects with the same variables or methods to have a different type or functionality. For example, a subclass that inherited a certain function from the superclass may have its own definition. Ie. Shape.draw() vs Circle.draw() is different even though the names are the same. Encapsulation in object oriented programming is the design method where the member variables and functions are private from the public to prevent any malicious changes from being made. It is also the idea that the user does not need to know the implementation of the functions and therefore there is an ‘interface’ (i.e. header file) and ‘implementation’ (i.e. .cpp file). 
+
+10. RoleGame prototype is using polymorphism more so than encapsulation. In all the cpp files, the hit function is different from the last. Each weapon has its own version of the function. All the classes are subclasses of the Weapon class, therefore, it is contradicting the characteristic of encapsulation. None of the member variables or functions are private but rather protected.   
