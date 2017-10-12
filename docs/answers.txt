@@ -26,7 +26,7 @@
 6. git status will only show you which files have been staged or unstaged. It essentially shows you what’s been going on with git add and git commit. Git log shows you the project history which can be organized or searched with parameters. 
 
 
-7. 
+7. git log --follow Weapon.h 
 
 
 8. To find the commits that contain the word ‘file’ I used git log --all --grep=‘file'
